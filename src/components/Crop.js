@@ -103,10 +103,12 @@ class Crop extends Component {
     const nextCoordinate = { ...coordinate, x: x + dx, y: y + dy };
     const nextCoordinates = update(index, nextCoordinate)(coordinates);
     if (is(Function, onDrag)) {
+      console.log(1)
       onDrag(nextCoordinate, index, nextCoordinates);
     }
 
     if (is(Function, onChange)) {
+      console.log(2)
       onChange(nextCoordinate, index, nextCoordinates);
     }
   };
@@ -250,12 +252,6 @@ class Crop extends Component {
         onClick={() => {
           this.hrefOrFunction(coordinate);
           console.log('热区组件数据', coordinate);
-          // // 添加埋点属性;
-          // if (coordinate.courseMap && coordinate.courseMap.elementName) {
-          //   document
-          //     .querySelector('#clickPointId')
-          //     .setAttribute('name', coordinate.courseMap.elementName);
-          // }
         }}
         onDoubleClick={() => onDoubleClick(coordinate, index)}
         style={this.cropStyle(coordinate, isMobile, width, clientWidth)}

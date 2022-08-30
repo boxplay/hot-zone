@@ -1,11 +1,10 @@
 {
-  "name": "@kkb/hot-zone",
-  "version": "0.3.3",
+  "name": "boxplay-hotzone",
+  "version": "0.0.1",
   "main": "lib/index.js",
   "license": "MIT",
   "author": {
-    "name": "Li Quan",
-    "email": "jump.up@foxmail.com"
+    "name": "dubin"
   },
   "repository": {
     "type": "git"
@@ -52,7 +51,7 @@
   },
   "dependencies": {
     "@ant-design/icons": "^4.4.0",
-    "@kkb/imgx": "4.1.1",
+    "boxplay-imgx": "^1.0.0",
     "classnames": "^2.2.6",
     "interactjs": "^1.4.0-alpha.1",
     "prop-types": "^15.6.1",
@@ -61,8 +60,5 @@
     "rc-util": "^5.7.0",
     "shortid": "^2.2.8",
     "styled-jsx": "^2.2.6"
-  },
-  "publishConfig": {
-    "registry": "https://registry-npm.kaikeba.com/"
   }
 }

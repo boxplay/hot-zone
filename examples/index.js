@@ -33,7 +33,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div style={{width: '320px',margin: "0 auto"}}>
+      <div style={{width: '100%',margin: "0 auto"}}>
         <h1>Dragging, Drawing, Resizing rectangles on the img</h1>
         <HotZoneWrap
           src={img}
@@ -44,9 +44,9 @@ class App extends React.Component {
           onChange={this.changeCoordinate}
           onDelete={this.deleteCoordinate}
           onDoubleClick={this.onDoubleClick}
-          hidden={true}
-          isMobile={true}
-          width={320} //根据手机可变
+          hidden={false}
+          isMobile={false}
+          width={800} //根据手机可变
           clientWidth={320} //B端配置区width
           // onLoad={e => console.log(e.target.height, e.target.width)}
         />

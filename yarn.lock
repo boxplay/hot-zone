@@ -979,11 +979,6 @@
   resolved "https://registry.npm.taobao.org/@interactjs/types/download/@interactjs/types-1.10.2.tgz#45a74d019f9b3e8fccd3ccc288b55bcf510106bc"
   integrity sha1-RadNAZ+bPo/M08zCiLVbz1EBBrw=
 
-"@kkb/imgx@4.1.1":
-  version "4.1.1"
-  resolved "https://registry-npm.kaikeba.com/@kkb/imgx/download/@kkb/imgx-4.1.1.tgz#3c5fc5bceb111a8e656e24121e7f901629cb1316"
-  integrity sha1-PF/FvOsRGo5lbiQSHn+QFinLExY=
-
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.npm.taobao.org/@mrmlnc/readdir-enhanced/download/@mrmlnc/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -2072,6 +2067,11 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/boolbase/download/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
+
+boxplay-imgx@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/boxplay-imgx/-/boxplay-imgx-1.0.0.tgz#6e7dd1393007751c4785612f57c2e3dd4005d301"
+  integrity sha512-zi8VaJKEuDr9Mq9VfR36N1CsrO0ojZg+0J2xLj5sRLAtRUyKSHkjODuSTmYjpGsmsBDU3gqhCVuctXWljwdH5w==
 
 brace-expansion@^1.1.7:
   version "1.1.11"

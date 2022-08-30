@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import {both, clone, is, complement, equals, map, addIndex} from 'ramda'
 import PropTypes from 'prop-types'
 import shortid from 'shortid'
-import Imgx from '@kkb/imgx'
+import {Imgx} from 'boxplay-imgx'
 import Crop, {coordinateType} from './Crop'
 
 
